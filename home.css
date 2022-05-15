@@ -1,0 +1,563 @@
+    *body {
+        padding: 0;
+        margin: 0;
+    }
+    /* header code */
+    /* Navigation code */
+    
+    .navbar {
+        display: none;
+    }
+    
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    header {
+        background-image: url("https://wallpapersmug.com/download/3840x2160/66383e/choco-cake-food.jpg");
+        height: 500px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+    }
+    
+    .flex-nav {
+        display: flex;
+    }
+    
+    .navbar-brand div a {
+        align-self: baseline;
+    }
+    
+    .btn-outline-info {
+        margin-right: 1%;
+    }
+    
+    .signup {
+        margin-right: 5px;
+    }
+    
+    .brand-text {
+        text-decoration: none;
+        color: white;
+        margin-left: 5%;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        z-index: 2;
+    }
+    
+    .brand-text:hover {
+        color: #0dcaf0;
+    }
+    
+    .dropdown ul {
+        list-style-type: none;
+    }
+    
+    .dropdown-menu {
+        border: 2px #0dcaf0 solid;
+    }
+    
+    .fa-motorcycle,
+    .fa-utensils,
+    .fa-suitcase {
+        margin-left: 2.5%;
+    }
+    
+    .navbar-brand .fa-solid {
+        margin-right: 3%;
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    
+    .flexitems {
+        align-self: baseline;
+        flex: 25%;
+        margin-top: 25px;
+        color: black;
+    }
+    
+    button {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .fa-arrow-right-to-bracket,
+    .fa-square-plus {
+        margin-right: 2%;
+    }
+    
+    .div-inline {
+        display: flex
+    }
+    
+    .signup {
+        margin-left: 2%;
+    }
+    
+    .modal-body {
+        padding-bottom: 0;
+    }
+    
+    .login-flex {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .google-login {
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .twitter-login {
+        height: 30px;
+        margin-right: 5px;
+    }
+    
+    .loginwith {
+        width: 100%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    
+    .margin-bottom {
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width: 991px) {
+        .brand-text .fa-solid {
+            font-size: 5vw;
+        }
+        .nav-link .fa-solid {
+            margin: 0;
+            margin-right: 1%;
+        }
+        .navbar {
+            display: flex;
+        }
+        .container-fluid {
+            padding: 0;
+        }
+        header .flex-nav {
+            display: none;
+        }
+        .brand-text {
+            color: white;
+            font-size: 25px;
+            padding: 0;
+            margin: 0;
+            letter-spacing: 0.3px;
+        }
+        .brand-text:hover {
+            color: #0dcaf0;
+        }
+        .active:hover {
+            color: #0dcaf0;
+        }
+        .navbar-brand {
+            margin: 0;
+        }
+        .brand-text .fa-solid {
+            font-size: 30px;
+        }
+        .nav-item .nav-link {
+            font-weight: 400;
+            font-family: 'Acme', sans-serif;
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media (max-width: 470px) {
+        .brand-text .fa-solid {
+            font-size: 5vw;
+        }
+        .brand-text {
+            color: white;
+            font-size: 5vw;
+            padding: 0;
+            margin: 0;
+            letter-spacing: 0.3px;
+        }
+        .nav-item .nav-link {
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    /* header body code */
+    
+    .flex-body {
+        margin-top: 1%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .body-tittle .tittle {
+        color: white;
+        font-size: 2.4rem;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+    
+    .flex-body div p span {
+        color: #0dcaf0;
+    }
+    
+    .subtittle {
+        color: #EEEEEE;
+        font-size: 1rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }
+    
+    .input-group-text {
+        background-color: #0dcaf0;
+        font-size: 1.5rem;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .search {
+        text-decoration: none;
+    }
+    
+    @media (max-width: 470px) {
+        .body-tittle .tittle {
+            color: white;
+            font-size: 1.3rem;
+            margin-top: 5%;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+        .subtittle {
+            color: #EEEEEE;
+            font-size: 0.8rem;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1.2px;
+        }
+        .input-group {
+            width: 90%
+        }
+    }
+    /* top picks code */
+    
+    .top-tittle {
+        background-color: #F8F8F8;
+    }
+    
+    .brand-tittle {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        padding-top: 1%;
+        text-align: center;
+    }
+    
+    .branditems a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .top-tittle p {
+        margin-bottom: 0;
+    }
+    
+    .top-tittle .top-brands-for-you {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        overflow: scroll;
+        padding-bottom: 2%;
+        align-items: center;
+    }
+    
+    .branditems img {
+        border-radius: 100%;
+        height: 150px;
+        box-shadow: 2px 2px 5px grey;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+    
+    .branditems {
+        margin-right: 35px;
+        margin-left: 25px;
+    }
+    
+    .branditems p {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    @media (max-width: 470px) {
+        .brand-tittle {
+            text-align: center;
+        }
+    }
+    /* first oder section */
+    
+    .top-sec-bggrey .brand-tittle {
+        letter-spacing: 1px;
+    }
+    
+    .branditems:hover {
+        transform: scale(1.1)
+    }
+    
+    .top-sec-bggrey {
+        background: rgb(230, 228, 228);
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 1%;
+    }
+    
+    .top-sec-bggrey {
+        overflow: hidden;
+    }
+    
+    .top-sec-bggrey .top-brands-for-you {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .top-sec-bggrey .branditems img {
+        border-radius: 100%;
+        height: 150px;
+        box-shadow: 2px 2px 5px grey;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    
+    .top-sec-bggrey .top-brands-for-you a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    @media (max-width: 970px) {
+        .top-sec-bggrey .top-brands-for-you {
+            overflow: scroll;
+            display: flex;
+            justify-content: flex-start;
+            text-align: center;
+            align-items: center;
+            padding: 0;
+        }
+    }
+    /* Offer Section Code */
+    
+    .offer-section {
+        background: rgb(0, 212, 255);
+        background: linear-gradient(318deg, rgba(0, 212, 255, 1) 3%, rgba(0, 203, 186, 1) 68%);
+    }
+    
+    .offer-section p {
+        margin-bottom: 0;
+    }
+    
+    .offer-section .tittle {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 3%;
+        letter-spacing: 2px;
+        padding-bottom: 1%;
+    }
+    
+    .offer-section .subtittle {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .offer-section .termsandconds {
+        color: #EEEEEE;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.9rem;
+        padding-bottom: 1%;
+    }
+    
+    .flex-offer-food {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 25%;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .flex-offer-food div img {
+        height: 200px;
+        width: 250px;
+    }
+    
+    .terms {
+        color: #EEEEEE;
+    }
+    
+    @media (max-width: 972px) {
+        .offer-section .tittle {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+            padding-top: 3%;
+            letter-spacing: 2px;
+            padding-bottom: 1%;
+        }
+        .offer-section .subtittle {
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            padding-bottom: 1%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .offer-section .termsandconds {
+            color: #EEEEEE;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 0.7rem;
+            padding-bottom: 1%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    
+    @media (max-width: 1012px) {
+        .food3 {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 760px) {
+        .food2 {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 506px) {
+        .food1 {
+            display: none;
+        }
+    }
+    /* Footer Code */
+    
+    .footer {
+        display: flex;
+        flex: 25%;
+        background-color: #2E3333;
+        justify-content: center;
+    }
+    
+    .footer-card-outside {
+        color: white;
+        margin: 2%;
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 280px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .footer-card-outside a {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        line-height: 0.75;
+        font-size: 0.85rem;
+        text-decoration: none;
+        color: #EEEEEE;
+    }
+    
+    .footer-card-outside a:hover {
+        color: #0dcaf0;
+    }
+    
+    .footer-card-inner {
+        margin-bottom: 10%;
+        margin-left: 6%;
+    }
+    
+    .footer-tittle {
+        line-height: 3;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.10rem;
+        text-decoration: underline;
+        letter-spacing: 1px;
+    }
+    
+    .footer-card-inner a button {
+        margin-top: 5%;
+    }
+    
+    .footer2 {
+        display: flex;
+        flex: 25%;
+        background-color: #2E3333;
+        justify-content: center;
+    }
+    
+    .footer2 div {
+        color: #0dcaf0;
+        margin-left: 0.75%;
+        margin-right: 0.75%;
+        font-size: 1.7rem;
+    }
+    
+    .footer2 div a {
+        color: #0dcaf0;
+    }
+    
+    .footer2 div a:hover {
+        color: white;
+    }
+    
+    .first-item {
+        margin-bottom: 1%;
+    }
+    
+    .footer3 {
+        display: flex;
+        flex: 25%;
+        background-color: #2E3333;
+        justify-content: center;
+    }
+    
+    @media (max-width: 970px) {
+        .footer {
+            display: none;
+        }
+        .first-item {
+            margin-left: 0px;
+            margin-bottom: 1%;
+        }
+    }
+    
+    .flex-end-copyright {
+        justify-self: flex-end;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 0.5%;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+    }

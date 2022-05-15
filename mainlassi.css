@@ -1,0 +1,160 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation code */
+        
+        .nav {
+            background: #0F1111;
+            height: 70px
+        }
+        
+        .navbar-brand {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .navbar-brand a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 2px;
+            font-size: 1.8rem;
+        }
+        
+        .navbar-brand a:hover {
+            color: #0dcaf0;
+        }
+        
+        .navbar-brand {
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            margin-right: 0;
+            font-size: 1.25rem;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        
+        @media (max-width: 420px) {
+            .navbar-brand a {
+                text-decoration: none;
+                color: white;
+                font-family: 'Oswald', sans-serif;
+                letter-spacing: 2px;
+                font-size: 1rem;
+            }
+        }
+        /* mainlassi */
+        
+        .mainlassi-container {
+            display: flex;
+        }
+        
+        .sidelassi-container {
+            height: 100%;
+            margin-left: 0.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        /* footer code */
+        
+        .footer {
+            display: flex;
+            flex: 25%;
+            background-color: #2E3333;
+            justify-content: center;
+            margin-top: 3%;
+        }
+        
+        .footer-card-outside {
+            color: white;
+            margin: 2%;
+            margin-left: 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 280px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .footer-card-outside a {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            line-height: 0.75;
+            font-size: 0.85rem;
+            text-decoration: none;
+            color: #EEEEEE;
+        }
+        
+        .footer-card-outside a:hover {
+            color: #0dcaf0;
+        }
+        
+        .footer-card-inner {
+            margin-bottom: 10%;
+            margin-left: 6%;
+        }
+        
+        .footer-tittle {
+            line-height: 3;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.10rem;
+            text-decoration: underline;
+            letter-spacing: 1px;
+        }
+        
+        .footer-card-inner a button {
+            margin-top: 5%;
+        }
+        
+        .footer2 {
+            display: flex;
+            flex: 25%;
+            background-color: #2E3333;
+            justify-content: center;
+        }
+        
+        .footer2 div {
+            color: #0dcaf0;
+            margin-left: 0.75%;
+            margin-right: 0.75%;
+            font-size: 1.7rem;
+        }
+        
+        .footer2 div a {
+            color: #0dcaf0;
+        }
+        
+        .footer2 div a:hover {
+            color: white;
+        }
+        
+        .first-item {
+            margin-bottom: 1%;
+        }
+        
+        .footer3 {
+            display: flex;
+            flex: 25%;
+            background-color: #2E3333;
+            justify-content: center;
+        }
+        
+        @media (max-width: 970px) {
+            .footer {
+                display: none;
+            }
+            .first-item {
+                margin-left: 0px;
+                margin-bottom: 1%;
+            }
+        }
+        
+        .flex-end-copyright {
+            justify-self: flex-end;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 0.5%;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1rem;
+        }
